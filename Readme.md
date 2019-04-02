@@ -8,4 +8,5 @@ Run composer install -> to make sure all dependencies are there.
 cp .env.example to .env.
 Setup up your mysql server credentials.
 run php artisan config:clear
+run php artisan migrate -> this run the databases schemas
 run php artisan serve optionally you can specify the port eg. "php artisan serve --port 8001"
